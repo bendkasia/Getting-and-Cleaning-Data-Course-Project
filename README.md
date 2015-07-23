@@ -14,3 +14,5 @@ The columns containing measurements of mean and standard deviation were identifi
   The included codebook describes all variables used in tidydata.txt.
   
   Original datasource:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  packages required:  dplyr and reshape2
+  
