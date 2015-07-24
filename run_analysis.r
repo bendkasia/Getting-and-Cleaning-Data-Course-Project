@@ -83,3 +83,5 @@ summarized_data <- summarize(grouped_data,mean(value))
 #reverting to wide data for readability
 tidydata <- dcast(summarized_data, subject_id + activity_code  + group ~ variable)
 
+#output tidydata
+tidydata
