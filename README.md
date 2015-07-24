@@ -9,7 +9,7 @@ The R script run_analysis.r downloads the data zip file from the repository into
       2.  Each different observation of each variable forms a different row
       3.  There is a row of human-readable variable names at the top
       
-The columns containing measurements of mean and standard deviation were identified and extracted from the raw data files, then combined for both the test and train groups into one dataframe, new columns were added to indicate the subject ID, group and activity code, then the mean of the measurements for each variable for each participant and activity were calculated and written to a new datafile, tidydata.txt.  The script includes remarks on each step to illustrate what is occurring.
+The columns containing measurements of mean and standard deviation were identified and extracted from the raw data files, then combined for both the test and train groups into one dataframe, new columns were added to indicate the subject ID, group and activity code, then the mean of the measurements for each variable for each participant and activity were calculated and written to a new datafile, tidydata.txt.  The script includes remarks on each step to illustrate what is occurring.  I have chosen to retain the original variable names for the actual measurements, as I do not have the background to interpret and rename these measurements in a more reabable but still accurate way.
   
   The included codebook describes all variables used in tidydata.txt.
   
