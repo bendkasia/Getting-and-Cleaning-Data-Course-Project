@@ -69,6 +69,8 @@ Description of Variables in Tidydata.txt
  value for each of these variables is the calculated mean of all measurements for each variable for 
  each participant.  Only variables for mean and standard deviation 
  in all axes(XYZ) are included in tidydata.txt
+ 
+ I have chosen to retain the original variable names for the actual measurements, as I do not have the background to interpret and rename these measurements in a more reabable but still accurate way.
 
 
  $ tBodyAcc-mean()-X          
